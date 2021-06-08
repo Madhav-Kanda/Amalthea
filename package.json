@@ -1,0 +1,22 @@
+{
+  "name": "amalthea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "postcss-cli": "^8.3.1",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4"
+  },
+  "scripts": {
+    "build:css": "postcss public/styles/tailwind.css -o public/styles/styles.css",
+    "start":"node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
